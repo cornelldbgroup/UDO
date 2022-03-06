@@ -4,7 +4,7 @@ UDO is the Swiss Army knife of database optimizer tools: it optimizes index sele
 
 UDO iteratively tries out database configurations and measures performance. It uses reinforcement learning to select the configuration to try next, guided by performance results of prior configurations. The only problem: switching from one configuration to another one (e.g., by creating and dropping indexes) can be expensive! 
 
-To reduce re-configuration overheads, UDO deliberately delays the evaluation of configurations. It waits until enough similar configurations are selected for evaluation. Then, it uses cost-based optimization to pick an evaluation order that minimizes re-configuration overheads. This process is enabled by a reinforcement learning algorithm that can handle delays between actions and rewards. 
+To reduce re-configuration overheads, UDO deliberately delays the evaluation of configurations. It waits until enough similar configurations are selected. Then, it uses cost-based optimization to pick an evaluation order that minimizes re-configuration overheads. This process is enabled by a reinforcement learning algorithm that can handle delays between actions and rewards. 
 
 We presented a reinforcement learning algorithm that handles delays (among other challenges) at AAAI 2022. UDO was demoed at VLDB 2021, the full paper will be presented at VLDB 2022.
 
