@@ -1,3 +1,4 @@
 theme: jekyll-theme-cayman
 title: UDO: the Universal Database Optimizer
+description: The Swiss Army knife of database tuning tools
 repository_url: https://github.com/jxiw/UDO
