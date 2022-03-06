@@ -20,7 +20,7 @@ We presented a reinforcement learning algorithm that handles delays (among other
 
 - Junxiong Wang (Cornell University)
 - Immanuel Trummer (Cornell University)
-- - Debabrota Basu (INRIA)
+- Debabrota Basu (INRIA)
 
 # Funding
 
